@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css" rel="stylesheet"/>
+    
+    <title>BootstrapExercice_4</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <h3 class="col-12">Exercice Bootstrap partie 2</h3>
+            <h4 class="col-12">Exercice 4</h4>
+        </div>
+        <div class="row2 col-12 col-1 offset-1">
+        <!-- Button modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+        Activer modal
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">DesCodeuses</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body bg-primary text-white text-center">
+                <p>HELLO WORLD !!!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>  
+</body>
+</html>
